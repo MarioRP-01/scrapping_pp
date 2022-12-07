@@ -1,8 +1,6 @@
-# Amazon Scrapping
+# scrapping_pp
 
 ## Description
-
-
 
 ## Requirements
 
