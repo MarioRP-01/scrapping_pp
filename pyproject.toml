@@ -1,0 +1,14 @@
+[project]
+name = "scrapping_pp"
+version = "0.1.0"
+description = "Scrap Amazon"
+authors = [
+    {name = "Vicente Gonzalez", email = "v.gonzalez.2020@alumnos.urjc.es"},
+    {name = "Mario Rojas", email = "m.rojas.2019@alumnos.urjc.es"}
+]
+readme = "README.md"
+dependencies = [
+    "bs4",
+    "requests",
+    "lxml"
+]
