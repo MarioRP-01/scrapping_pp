@@ -9,6 +9,6 @@ authors = [
 readme = "README.md"
 dependencies = [
     "bs4",
-    "requests",
+    "cloudscraper",
     "lxml"
 ]

@@ -1,2 +1,2 @@
 def view(data):
-    print("viewing")
+    print(data)
