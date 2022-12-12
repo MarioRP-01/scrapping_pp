@@ -38,7 +38,8 @@ def __extract_general_information(item_data: BeautifulSoup):
     # TODO: Extract title
     product_title = item_data.select_one("span.a-price-whole")
     if product_title is not None:
-        product_title
+        product_title = product_title.string.strip()
+
     # TODO: Extract price
     # TODO: Extract valoration
     # TODO: Extract availability (if exist)
