@@ -16,5 +16,3 @@ if __name__ == '__main__':
         sys.exit()
 
     amazon.scrap_amazon(scraper, arguments[1], int(arguments[2]))
-
-    

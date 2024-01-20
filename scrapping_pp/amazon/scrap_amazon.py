@@ -28,6 +28,8 @@ def __scrap(scraper: CloudScraper, item, pages):
         pages_message = "page=" + str(i)
         URL = "https://www.amazon.es/s?k=" + item + "&" + pages_message + "&ref=nb_sb_noss_2"
 
+        print(URL)
+
         while (True):
             webpage = scraper.get(URL)
             if webpage.status_code == 200: break
